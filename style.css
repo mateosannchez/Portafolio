@@ -691,3 +691,27 @@
     font-size: 15px;
     font-style: italic;
 }
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    /* Estilos para pantallas con un ancho mínimo de 320px y máximo de 320px */
+    #contact .contct-cols .con-top-col {
+        display: grid;
+        grid-gap: 2.4rem;
+        margin-top: 70px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #service .services-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.4rem;
+        margin-top: 70px;
+    }
+    #contact .contct-cols .con-top-col .con-item {
+        padding: 50px 0px;
+    }
+    #portfolio .portfolio-grid .portfolio-item .port-img-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+}
